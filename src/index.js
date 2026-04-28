@@ -26,7 +26,7 @@ app.use(
     extended: true,
     limit: "50mb",
     extended: true,
-  })
+  }),
 );
 // middleware  quản lý lỗi đồng nhất
 
@@ -36,7 +36,7 @@ app.use((err, req, res, next) => {
     message: err.message || "Lỗi server",
   });
 });
-const allowedOrigins = ["https://goixegiare.pro.vn", "http://localhost:3000"];
+const allowedOrigins = ["https://goixegiare.pro.vn", "https://www.goixegiare.pro.vn", "http://localhost:3000"];
 // CORS
 app.use(
   cors({
@@ -50,7 +50,7 @@ app.use(
       }
     },
     credentials: true,
-  })
+  }),
 );
 app.use(express.json({ limit: "50mb" }));
 // using morgan
