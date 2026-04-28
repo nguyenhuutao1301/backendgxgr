@@ -1,0 +1,39 @@
+{
+  "name": "webdesign",
+  "version": "1.0.0",
+  "description": "web design ss1",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web",
+    "design"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "isbot": "^5.1.28",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.0",
+    "mongoose-slug-updater": "^3.3.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^7.0.3",
+    "nodemon": "^3.1.7",
+    "ua-parser-js": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^24.0.3"
+  }
+}
